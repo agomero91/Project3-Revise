@@ -1,0 +1,61 @@
+nav.navbar.navbar {
+  top:5px;
+  left: 5px;
+  margin-bottom: 0;
+  display: inline-block;
+  background-color:rgb(255,85,0);
+  position: fixed;
+  z-index: 9999;
+  padding: 10px 20px;
+border-radius:20px;
+padding-left: 100px;
+
+  transition: .5s;
+  
+}
+
+.navbar ul li{
+padding: 0px 40px;
+}
+
+.navbar ul li:hover{
+ background:rgb(255,179,102);
+ border-radius:10px;
+  }
+
+
+/*Color for background site*/
+body {
+  background-color:#C70039;
+  font-family: 'Roboto','Ubuntu', sans-serif;
+}
+
+
+
+a{
+  font-size: 15px;
+  color: white;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 8px;
+  
+
+  
+}
+
+a i {
+  font-size: 20px !important;
+}
+
+/*To rotate the marquee text to 90 degrees*/
+.rotate{
+
+  transform: rotate(-90deg);
+  float: right;
+  left: 295px;
+  
+}
+
+
+
